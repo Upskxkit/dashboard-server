@@ -1,0 +1,35 @@
+{
+  "name": "dashboard-server",
+  "version": "1.0.0",
+  "description": "test beckend part for dasboar app",
+  "main": "server.ts",
+  "dependencies": {
+    "livr": "^2.3.0",
+    "ws": "^7.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.1",
+    "@types/ws": "^7.2.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./server.ts",
+    "start": "node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Upskxkit/dashboard-server.git"
+  },
+  "keywords": [
+    "ws"
+  ],
+  "author": "mykyta shteinikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Upskxkit/dashboard-server/issues"
+  },
+  "homepage": "https://github.com/Upskxkit/dashboard-server#readme"
+}
