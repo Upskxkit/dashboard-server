@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('https://dashboard-service-app.herokuapp.com/');
 
 ws.on('open', function open() {
   const data = {method: "request:create", args: {title: "test", status: "check"}};
