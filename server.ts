@@ -2,7 +2,7 @@ import {appServer} from "./lib/server";
 
 const port = process.env.PORT || 8080;
 
-console.log(port);
+console.log("port:", port);
 
 const server = new appServer({
   "transport": "ws",
